@@ -3,8 +3,12 @@
   "version": "0.0.1",
   "description": "",
   "author": "",
-  "private": true,
+  "private": false,
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Unvios/test-npm-deploy-unvios"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
